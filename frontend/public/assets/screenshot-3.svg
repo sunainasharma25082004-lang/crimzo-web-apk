@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 560" fill="none">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="diamondGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b6b"/>
+      <stop offset="50%" stop-color="#ff3b42"/>
+      <stop offset="100%" stop-color="#ff5252"/>
+    </linearGradient>
+    <linearGradient id="rewardCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8242a" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <rect width="280" height="560" fill="url(#bg3)"/>
+  <rect x="0" y="0" width="280" height="44" fill="rgba(0,0,0,0.3)"/>
+  <text x="20" y="28" fill="#94a3b8" font-family="Arial,sans-serif" font-size="12">9:41</text>
+  <text x="20" y="72" fill="white" font-family="Arial,sans-serif" font-size="22" font-weight="bold">Rewards</text>
+  <!-- Diamond balance -->
+  <rect x="16" y="88" width="248" height="120" rx="20" fill="url(#rewardCard)" stroke="rgba(232,36,42,0.3)"/>
+  <text x="36" y="118" fill="#94a3b8" font-family="Arial,sans-serif" font-size="12">Your Diamonds</text>
+  <text x="36" y="158" fill="url(#diamondGrad)" font-family="Arial,sans-serif" font-size="36" font-weight="bold">12,450</text>
+  <text x="36" y="182" fill="#64748b" font-family="Arial,sans-serif" font-size="11">💎 Total Balance</text>
+  <polygon points="210,130 220,150 200,150" fill="#ff6b6b" opacity="0.8" transform="scale(2) translate(80,20)"/>
+  <!-- Progress -->
+  <text x="20" y="240" fill="white" font-family="Arial,sans-serif" font-size="14" font-weight="bold">Daily Progress</text>
+  <rect x="20" y="252" width="240" height="8" rx="4" fill="rgba(255,255,255,0.08)"/>
+  <rect x="20" y="252" width="168" height="8" rx="4" fill="url(#diamondGrad)"/>
+  <text x="20" y="278" fill="#94a3b8" font-family="Arial,sans-serif" font-size="11">7/10 tasks completed</text>
+  <!-- Reward items -->
+  <rect x="16" y="296" width="116" height="100" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="44" y="330" font-size="28">🎁</text>
+  <text x="32" y="358" fill="white" font-family="Arial,sans-serif" font-size="11" font-weight="bold">Gift Box</text>
+  <text x="32" y="376" fill="#ff3b42" font-family="Arial,sans-serif" font-size="10">500 💎</text>
+  <rect x="148" y="296" width="116" height="100" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="176" y="330" font-size="28">⭐</text>
+  <text x="164" y="358" fill="white" font-family="Arial,sans-serif" font-size="11" font-weight="bold">VIP Badge</text>
+  <text x="164" y="376" fill="#ff3b42" font-family="Arial,sans-serif" font-size="10">2000 💎</text>
+  <rect x="16" y="412" width="116" height="100" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="44" y="446" font-size="28">🎨</text>
+  <text x="32" y="474" fill="white" font-family="Arial,sans-serif" font-size="11" font-weight="bold">Theme Pack</text>
+  <text x="32" y="492" fill="#ff3b42" font-family="Arial,sans-serif" font-size="10">800 💎</text>
+  <rect x="148" y="412" width="116" height="100" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="176" y="446" font-size="28">🚀</text>
+  <text x="164" y="474" fill="white" font-family="Arial,sans-serif" font-size="11" font-weight="bold">Boost</text>
+  <text x="164" y="492" fill="#ff3b42" font-family="Arial,sans-serif" font-size="10">1500 💎</text>
+  <!-- CTA -->
+  <rect x="16" y="530" width="248" height="44" rx="22" fill="url(#diamondGrad)"/>
+  <text x="78" y="558" fill="white" font-family="Arial,sans-serif" font-size="13" font-weight="bold">Redeem Rewards</text>
+</svg>

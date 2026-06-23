@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0808"/>
+      <stop offset="50%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#120606"/>
+    </linearGradient>
+    <linearGradient id="ogText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="45%" stop-color="#ff6b6b"/>
+      <stop offset="100%" stop-color="#ff3b42"/>
+    </linearGradient>
+    <linearGradient id="ogBtn" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b91c1c"/>
+      <stop offset="100%" stop-color="#ff3b42"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <circle cx="200" cy="100" r="200" fill="#e8242a" opacity="0.18" filter="blur(60px)"/>
+  <circle cx="1000" cy="500" r="250" fill="#ffffff" opacity="0.06" filter="blur(80px)"/>
+  <text x="100" y="280" font-family="Arial,sans-serif" font-size="72" font-weight="bold">
+    <tspan fill="#e8242a">C</tspan><tspan fill="#ffffff">R</tspan><tspan fill="#e8242a">I</tspan><tspan fill="#ffffff">M</tspan><tspan fill="#e8242a">Z</tspan><tspan fill="#ffffff">O</tspan>
+  </text>
+  <text x="100" y="360" fill="url(#ogText)" font-family="Arial,sans-serif" font-size="42" font-weight="bold">Connect, Go Live &amp; Earn Rewards</text>
+  <text x="100" y="420" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="24">Social networking &amp; live streaming app for Android</text>
+  <rect x="100" y="460" width="220" height="56" rx="28" fill="url(#ogBtn)"/>
+  <text x="145" y="496" fill="white" font-family="Arial,sans-serif" font-size="20" font-weight="bold">Download APK</text>
+</svg>
