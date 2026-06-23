@@ -797,8 +797,6 @@ ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  max-width: 720px;
-  margin: 0 auto;
 }
 
 .creator-card {
@@ -1509,6 +1507,11 @@ ul {
   .feature-card-wide {
     grid-column: span 3;
     flex-direction: row;
+  }
+
+  .creators-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
   }
 
   .steps {

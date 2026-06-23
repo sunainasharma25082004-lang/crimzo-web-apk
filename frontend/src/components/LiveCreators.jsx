@@ -17,7 +17,7 @@ export default function LiveCreators() {
 
         <div className="creators-grid">
           {CREATORS.map((creator, index) => (
-            <FadeUp key={creator.name} delay={index % 2}>
+            <FadeUp key={creator.name} delay={index % 3}>
               <article className="creator-card">
                 <div className="creator-card__image-wrap">
                   <img
