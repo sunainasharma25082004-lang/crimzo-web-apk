@@ -2,10 +2,25 @@
   command = "npm run build"
   publish = "dist"
 
+# Serve the APK file directly — do NOT rewrite to index.html
+[[redirects]]
+  from = "/crmizo.apk"
+  to = "/crmizo.apk"
+  status = 200
+
+# SPA catch-all (must come AFTER the APK rule)
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Force correct Content-Type and download behavior for the APK
+[[headers]]
+  for = "/crmizo.apk"
+  [headers.values]
+    Content-Type = "application/vnd.android.package-archive"
+    Content-Disposition = "attachment; filename=\"crmizo.apk\""
+    X-Content-Type-Options = "nosniff"
 
 [build.environment]
   NODE_VERSION = "20"
