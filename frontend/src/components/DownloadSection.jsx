@@ -1,7 +1,7 @@
 import FadeUp from './FadeUp';
 import { BrandName } from './BrandLogo';
 import DownloadIcon from './DownloadIcon';
-import { APK_URL, APP_INFO, CREATORS } from '../constants/appInfo';
+import { APK_FILENAME, APK_URL, APP_INFO, CREATORS } from '../constants/appInfo';
 
 export default function DownloadSection() {
   return (
@@ -23,7 +23,7 @@ export default function DownloadSection() {
                 Ready to Join <BrandName />?
               </h2>
               <p>Download the latest version and start connecting, streaming, and earning today.</p>
-              <a href={APK_URL} className="btn btn-primary btn-xl" download="crmizo.apk">
+              <a href={APK_URL} className="btn btn-primary btn-xl" download={APK_FILENAME}>
                 <DownloadIcon size={24} />
                 Download APP for Android
               </a>

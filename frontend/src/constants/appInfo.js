@@ -6,7 +6,7 @@ export const APK_FILENAME = 'crmizo.apk';
 export const APP_INFO = {
   version: '1.0.0',
   androidMin: '6.0+',
-  size: '~45 MB',
+  size: '~349 MB',
   email: import.meta.env.VITE_CONTACT_EMAIL || 'support@crmizo.com',
 };
 

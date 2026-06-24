@@ -1,7 +1,7 @@
 import FadeUp from './FadeUp';
 import DownloadIcon from './DownloadIcon';
 import PhonePreview from './PhonePreview';
-import { APK_URL, CREATORS } from '../constants/appInfo';
+import { APK_FILENAME, APK_URL, CREATORS } from '../constants/appInfo';
 
 export default function Hero() {
   return (
@@ -29,7 +29,7 @@ export default function Hero() {
 
           <FadeUp delay={3}>
             <div className="hero-actions">
-              <a href={APK_URL} className="btn btn-primary btn-lg" download="crmizo.apk">
+              <a href={APK_URL} className="btn btn-primary btn-lg" download={APK_FILENAME}>
                 <DownloadIcon />
                 Download APP for Android
               </a>
