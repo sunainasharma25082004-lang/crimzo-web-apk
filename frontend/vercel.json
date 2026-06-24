@@ -8,5 +8,7 @@
       ]
     }
   ],
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [
+    { "source": "/((?!crmizo\\.apk$).*)", "destination": "/index.html" }
+  ]
 }
