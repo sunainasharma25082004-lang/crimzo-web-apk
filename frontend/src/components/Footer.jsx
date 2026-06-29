@@ -30,6 +30,7 @@ export default function Footer() {
             <li><a href="/#about">About CRIMZO</a></li>
             <li><Link to="/privacy">Privacy Policy</Link></li>
             <li><Link to="/terms">Terms &amp; Conditions</Link></li>
+            <li><Link to="/child-safety">Child Safety Standards</Link></li>
           </ul>
         </div>
 

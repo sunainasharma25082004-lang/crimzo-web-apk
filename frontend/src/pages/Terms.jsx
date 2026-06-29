@@ -3,7 +3,7 @@ import { APP_INFO } from '../constants/appInfo';
 import { usePageTitle } from '../hooks/usePageTitle';
 
 export default function Terms() {
-  usePageTitle('Terms & Conditions');
+  usePageTitle('Terms & Conditions', '/terms');
   return (
     <main className="legal-page">
       <div className="container legal-content">

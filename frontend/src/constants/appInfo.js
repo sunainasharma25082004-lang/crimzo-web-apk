@@ -1,5 +1,7 @@
 const creatorPhoto = (file) => `/assets/creators/${file}`;
 
+export const SITE_URL = import.meta.env.VITE_SITE_URL || 'https://crimzo.live';
+
 export const APK_URL = '/crmizo.apk';
 export const APK_FILENAME = 'crmizo.apk';
 
@@ -7,7 +9,8 @@ export const APP_INFO = {
   version: '1.0.0',
   androidMin: '6.0+',
   size: '~349 MB',
-  email: import.meta.env.VITE_CONTACT_EMAIL || 'support@crmizo.com',
+  siteUrl: SITE_URL,
+  email: import.meta.env.VITE_CONTACT_EMAIL || 'support@crimzo.live',
 };
 
 export const FEATURES = [
